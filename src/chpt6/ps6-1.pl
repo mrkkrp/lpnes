@@ -15,5 +15,5 @@
 member(X, L) :- append(_, [X|_], L).
 
 %% Append based version is less efficient because it involves calls of
-%% append, rebuilding of its second argument and redosn. Standard version
+%% append, rebuilding of its second argument and redos. Standard version
 %% only involves recursive calls.
