@@ -25,12 +25,10 @@ secret `.doc` format, so I took that as a personal offense.
 There is [this repository on
 GitHub](https://github.com/dragonwasrobot/learn-prolog-now-exercises). Initially
 I thought that it's a good collection of solutions. Then I actually read
-them and concluded that programming skill the author is insufficient. Then I
+them and concluded that programming skill of the author is insufficient. I
 opened [an
 issue](https://github.com/dragonwasrobot/learn-prolog-now-exercises/issues/4)
 to point out that his solutions have flaws. It was ignored.
-
-Thus, I shall write my own solutions.
 
 ## License
 
