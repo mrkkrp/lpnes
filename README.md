@@ -15,12 +15,12 @@ version of the book, so this my effort is to correct the mistake.
 ## Other solutions
 
 I know that paper version of the book contains the solutions, but I don't
-have it and cannot check my solutions.
+possess it and cannot check my solutions.
 
-I also know that there is a blog post that has link to zip archive that
-supposedly contain solutions as well. 'Anyone is welcome to use them for
-self-checking' - its author says. However, these files are in proprietary,
-secret `.doc` format, so I took that as a personal offense.
+I also know that there is a blog post that has a link to a zip archive that
+supposedly contains the solutions as well. 'Anyone is welcome to use them
+for self-checking' - its author says. However, these files are in
+proprietary, secret `.doc` format, so I took that as a personal offense.
 
 There is [this repository on
 GitHub](https://github.com/dragonwasrobot/learn-prolog-now-exercises). Initially
