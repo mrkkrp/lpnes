@@ -22,6 +22,6 @@
 %% ?- toptail([a,b,c], T).
 %% T = [b]
 %%
-%% (Hint: here’s where append/3 comes in useful.)
+%% (Hint: here's where append/3 comes in useful.)
 
 toptail([_|T],R) :- append(R,[_],T).

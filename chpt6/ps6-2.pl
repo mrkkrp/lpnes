@@ -8,7 +8,7 @@
 %%
 %% Practical Session 6, Exercise 2
 %%
-%% Write a predicate set(InList,OutList) which takes as input an arbitrary
+%% Write a predicate set(InList, OutList) which takes as input an arbitrary
 %% list, and returns a list in which each element of the input list appears
 %% only once. For example, the query
 %%

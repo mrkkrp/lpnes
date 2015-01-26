@@ -9,7 +9,7 @@
 %% Exercise 2.4
 %%
 %% Here are six Italian words:
-%% astante , astoria , baratto , cobalto , pistola , statale .
+%% astante, astoria, baratto, cobalto, pistola, statale.
 %% They are to be arranged, crossword puzzle fashion, in the following grid:
 
 %%      V1  V2  V3

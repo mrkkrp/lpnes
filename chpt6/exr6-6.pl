@@ -20,7 +20,7 @@
 %% * The Japanese lives to the right of the snail keeper.
 %% * The snail keeper lives to the left of the blue house.
 %%
-%% Who keeps the zebra? Don’t work it out for yourself: define a predicate
+%% Who keeps the zebra? Don't work it out for yourself: define a predicate
 %% zebra/1 that tells you the nationality of the owner of the zebra!
 %%
 %% (Hint: Think of a representation for the houses and the street. Code the
@@ -35,6 +35,8 @@ suffix(S, L) :-
 sublist(SubL, L) :-
     suffix(S, L),
     prefix(SubL, S).
+
+%% Actual solution.
 
 zebra(X) :-
     member(house(red, english, _), [H0,H1,H2]),
