@@ -31,6 +31,13 @@ issue](https://github.com/dragonwasrobot/learn-prolog-now-exercises/issues/4)
 to point out that his solutions have flaws. The author admitted that those
 solutions are old and 'should be treated with proper caution'.
 
+There is other repositories on GitHub. I like [this
+one](https://github.com/EPadronU/learn-prolog-now). However, the files don't
+contain descriptions of exercises and some solutions can be more
+elegant. Worst of all, this repository doesn't have license, so one cannot
+know what he/she can do with it. Also, some solutions are still missing. But
+anyway it's way better than others.
+
 ## License
 
 All solutions, commentaries, and other materials have been placed into
