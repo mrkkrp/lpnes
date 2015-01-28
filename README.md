@@ -31,12 +31,24 @@ issue](https://github.com/dragonwasrobot/learn-prolog-now-exercises/issues/4)
 to point out that his solutions have flaws. The author admitted that those
 solutions are old and 'should be treated with proper caution'.
 
-There is other repositories on GitHub. I like [this
+There is [this
+repository](https://github.com/lorenzo-stoakes/learn-prolog-now). What's
+wrong with it? Well, it's poorly structured, it has unnecessary 'notes' in
+separate directory, in directory 'exercises' there are solutions to only
+first 6 chapters (and they are terribly incomplete).
+
+There are other repositories on GitHub. I like [this
 one](https://github.com/EPadronU/learn-prolog-now). However, the files don't
 contain descriptions of exercises and some solutions can be more
 elegant. Worst of all, this repository doesn't have license, so one cannot
 know what he/she can do with it. Also, some solutions are still missing. But
-anyway it's way better than others.
+anyway it's way better than the others.
+
+So, in this repository I've collected properly organized, elegant solutions
+to all exercises and practical sessions. I encourage you to open an issue if
+you know better way to solve some exercise. This repository is here to help
+those who learn the language improve their skill by looking at proper
+solutions.
 
 ## License
 
