@@ -45,10 +45,10 @@ know what he/she can do with it. Also, some solutions are still missing. But
 anyway it's way better than the others.
 
 So, in this repository I've collected properly organized, elegant solutions
-to all exercises and practical sessions. I encourage you to open an issue if
-you know better way to solve some exercise. This repository is here to help
-those who learn the language improve their skill by looking at proper
-solutions.
+to all exercises and practical sessions. I encourage you to send a pull
+request if you know better way to solve some exercise. This repository is
+here to help those who learn the language improve their skills by looking at
+the best possible solutions.
 
 ## License
 
