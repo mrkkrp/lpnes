@@ -31,16 +31,12 @@
 %% List flattens to the second argument Flat. This should be done without
 %% making use of append/3 .
 
-flatten_acc([], A, R) :-
-    reverse(A, R).
-flatten_acc([[]|T], A, R) :-
-    flatten_acc(T, A, R).
-flatten_acc([[H|Tx]|T], A, R) :-
-    flatten_acc([H,Tx|T], A, R).
-flatten_acc([H|T], A, R) :-
-    not(H == []),
-    atomic(H),
-    flatten_acc(T, [H|A], R).
+flatten([], R, R).
+flatten([H|T], A, R) :-
+    flatten(T, A, X),
+    flatten(H, X, R).
+flatten(X, A, [X|A]) :-
+    not(is_list(X)).
 
 flatten(L, R) :-
-    flatten_acc(L, [], R).
+    flatten(L, [], R).

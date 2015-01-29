@@ -13,13 +13,13 @@
 %% into a 3-place predicate accMin which returns the minimum of a list of
 %% integers.
 
-accMin([H|T], A, R) :-
+min([H|T], A, R) :-
     H < A,
-    accMin(T, H, R).
-accMin([H|T], A, R) :-
+    min(T, H, R).
+min([H|T], A, R) :-
     H >= A,
-    accMin(T, A, R).
-accMin([], R, R).
+    min(T, A, R).
+min([], R, R).
 
 min([H|T], R) :-
-    accMin(T, H, R).
+    min(T, H, R).

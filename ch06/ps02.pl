@@ -21,12 +21,12 @@
 %% (Hint: use the member/2 predicate to test for repetitions of items you
 %% have already found.)
 
-acc_set([], R, R).
-acc_set([H|T], A, R) :-
+set([], R, R).
+set([H|T], A, R) :-
     member(H, A),
-    acc_set(T, A, R).
-acc_set([H|T], A, R) :-
+    set(T, A, R).
+set([H|T], A, R) :-
     not(member(H, A)),
-    acc_set(T, [H|A], R).
+    set(T, [H|A], R).
 
-set(L, R) :- acc_set(L, [], R).
+set(L, R) :- set(L, [], R).
