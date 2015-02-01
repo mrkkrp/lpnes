@@ -1,7 +1,5 @@
 # Learn Prolog Now! Exercise Solutions
 
-*Please note that this work is in progress.*
-
 This is a collection of solutions to exercises found in Learn Prolog Now!
 textbook by Patrick Blackburn, Johan Bos, and Kristina Striegnitz.
 
