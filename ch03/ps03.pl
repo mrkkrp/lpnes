@@ -21,19 +21,10 @@
 %%
 %% to the query travel(valmont, losAngeles, X).
 
-:- consult(ps02).
+:- [ps02].
 
 travel(A, B, go(A, B)) :-
     directly(A, B).
 travel(A, B, go(A, X, G)) :-
     directly(A, X),
     travel(X, B, G).
-
-%% ?- travel(valmont, losAngeles, X).
-%% X = go(valmont, saarbruecken,
-%%        go(saarbruecken, paris,
-%%           go(paris, losAngeles))) ;
-%% X = go(valmont, metz,
-%%        go(metz, paris,
-%%           go(paris, losAngeles))) ;
-%% false.

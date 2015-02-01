@@ -26,6 +26,6 @@
 %%
 %% is fine too.
 
-:- consult(ps01).
+:- [ps01].
 
 powerset(S, P) :- setof(X, subset(X, S), P).

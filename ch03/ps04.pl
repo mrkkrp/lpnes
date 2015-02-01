@@ -13,7 +13,7 @@
 %% travel. That is, the new program should let us know, for each stage of
 %% the voyage, whether we need to travel by car, train, or plane.
 
-:- consult(ps02).
+:- [ps02].
 
 travel(A, B, byCar(A, B)) :-
     byCar(A, B).
